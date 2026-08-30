@@ -1,0 +1,26 @@
+{
+  "name": "zametki",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "password"
+  ],
+  "homepage": "https://github.com/VladimirKambal/zametki#readme",
+  "bugs": {
+    "url": "https://github.com/VladimirKambal/zametki/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladimirKambal/zametki.git"
+  },
+  "license": "ISC",
+  "author": "Vladimir_Kambal",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
