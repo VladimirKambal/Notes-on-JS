@@ -9,5 +9,7 @@ const controler = require("./controlers.js")
 requires.get(`/`, controler.AllNotes)
 requires.get(`/:id`, controler.Note)
 requires.post(`/`, controler.Create)
+requires.patch(`/:id`, controler.Patch)
+requires.delete(`/:id`, controler.Delete)
 
 module.exports = requires
